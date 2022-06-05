@@ -1,1 +1,1 @@
-# rsschool-cv
+https://denfreeze.github.io/rsschool-cv/cv
