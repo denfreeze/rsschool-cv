@@ -33,3 +33,12 @@ button.addEventListener('click', function () {
   }
 });
 ```
+## Skills
+- HTML/CSS (Beginner)
+- JavaScript (Beginner)
+
+## Education
+- University: Saitn-Petersburg Mining Uneversity.
+
+## English
+- A2
