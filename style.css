@@ -3,3 +3,15 @@
     src: url("assets/fonts/SourceSerifPro-Light.ttf");
     font-weight: 300;
 }
+
+body {
+    font-family: SourceSerifPro-Light;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    border: 1px solid red;
+}
