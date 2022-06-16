@@ -1,1 +1,5 @@
-temp text
+@font-face {
+    font-family: SourceSerifPro-Light;
+    src: url("assets/fonts/SourceSerifPro-Light.ttf");
+    font-weight: 300;
+}
