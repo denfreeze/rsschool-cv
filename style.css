@@ -12,6 +12,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background: url(assets/images/background.jpg);
+    background-size: cover;
 }
 
 * {
@@ -19,6 +21,10 @@ body {
 }
 
 .header {
+    border: 1px solid black;
+}
+
+.main {
     border: 1px solid red;
 }
 
@@ -31,4 +37,25 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.section-item a {
+    color: #829985;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.section-item a:hover {
+    color: #4d2323;
 }
