@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+     <div class="body-background">
+     <header class="header">
+        <div class="container">
+          <nav class="nav">
+            <ul class="nav-list">
+               <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+               <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+               <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+               <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+               <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+               <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+          </nav>
+        </div>
+     </header>
+   <main>
+        <div class="container main-container">
+          <section class="section">
+               <h1>Denis Morozov</h1>
+               <img src="assets/images/ava.jpg" height="200" width="200" alt="avatar">
+          </section>
+          <section class="section" id="contacts">
+               <h3 class="section-title">Contacts</h3>
+               <ul>
+                    <li>Location: Saint-Petersburg, Russia</li>
+                    <li>Phone: +7(981)-146-33-03</li>
+                    <li>Email: gm.denbrown2007@gmail.com</li>
+                    <li>GitHub: denfreeze</li>
+               </ul>
+          </section>
+          <section class="section" id="about">
+               <h3 class="section-title">About me</h3>
+               <p>Active, positive, purposeful. Great desire to learn new things and achieve new goals.</p>
+          </section>
+          <section class="section" id="code">
+               <h3 class="section-title">Code example</h3>
+               <pre>
+                    function getRandomElement(arr) {
+                         let randIndex = Math.floor(Math.random() * arr.length);
+                         return arr[randIndex];
+                       }
+                       
+                       let button = document.querySelector('.button');
+                       let phrase = document.querySelector('.phrase');
+                       let advice = document.querySelector('.advice');
+                       let image = document.querySelector('.image');
+                       
+                       button.addEventListener('click', function () {
+                         let randomElement = getRandomElement(phrases);
+                         phrase.textContent = randomElement;
+                         if (randomElement.length > 40) {
+                           advice.style.fontSize = '33px'
+                         }
+                         else {
+                           advice.style.fontSize = '42px'
+                         }
+               </pre>
+          </section>
+          <section class="section" id="skills">
+               <h3 class="section-title">Skills</h3>
+               <ul>
+                    <li>HTML/CSS (Beginner)</li>
+                    <li>JavaScript (Beginner)</li>
+               </ul>
+          </section>
+          <section class="section" id="education">
+               <h3 class="section-title">Education</h3>
+               <ul>
+                    <li>University: Saitn-Petersburg Mining Uneversity</li>
+               </ul>
+          </section>
+          <section class="section" id="english">
+               <h3 class="section-title">English</h3>
+               <ul>
+                    <li>A2</li>
+               </ul>
+          </section>
+        </div>
+   </main>
+   <footer class="footer">
+        <div class="container">
+          <nav class="nav">
+               <ul class="nav-list">
+                    <li class="nav-item"><a href="https://github.com/denfreeze" class="nav-link">My GitHub</a></li>
+                    <li class="nav-item"><a href="https://rs.school/" class="nav-link"><img src="assets/images/rs_school_js.svg" height="100px" width="100px" alt="RSSCHOOL logo"></a></li>
+                    <li class="nav-item"><p>© 2022 denfreeze</p></li>
+               </ul>
+          </nav>
+     </div>
+   </footer>
+</div> 
+</body>
+</html>
