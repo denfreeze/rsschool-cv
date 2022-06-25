@@ -1,1 +1,86 @@
-temp text
+@font-face {
+    font-family: SourceSerifPro-Light;
+    src: url("assets/fonts/SourceSerifPro-Light.ttf");
+    font-weight: 300;
+}
+
+body {
+    font-family: SourceSerifPro-Light;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url(assets/images/background.jpg);
+    background-size: cover;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, .3);
+    border: 1px solid black;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+.section-title {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+.nav-item a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 1s;
+    font-weight: 600;
+}
+
+.nav-item a:hover {
+    color: #ff0000;
+}
